@@ -1,0 +1,11 @@
+-------------
+4x4 lük bir matrisde kendi kendine harf yerleştirip hafızasız bir şekilde 
+rastgele denemeler ile kendi bulmacasını çözmeye çalışan bir java programı.
+Kod için alıştırma ve hatırlama amacı ile yapılmıştır.
+Çalıştırmak için test.java dosyası çalıştırılmalıdır.
+------
+Terminalden çalıştırmak için
+>>javac test.java
+>>java test
+
+yazmanız yeterli
