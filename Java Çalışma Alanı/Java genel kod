@@ -1,0 +1,62 @@
+public class Main {
+    public static void main(String[] args) {
+        // 1. "Hello, World!" Yazdırma
+        System.out.println("Hello, World!");
+
+        // 2. Değişkenler ve Veri Tipleri
+        int sayi = 10;
+        double ondalik = 5.5;
+        char karakter = 'A';
+        boolean dogruMu = true;
+        String metin = "Merhaba, Java!";
+
+        System.out.println("Sayı: " + sayi);
+        System.out.println("Ondalık: " + ondalik);
+        System.out.println("Karakter: " + karakter);
+        System.out.println("Boolean: " + dogruMu);
+        System.out.println("Metin: " + metin);
+
+        // 3. Koşul İfadeleri (if-else)
+        int yas = 18;
+        if (yas >= 18) {
+            System.out.println("Reşitsiniz.");
+        } else {
+            System.out.println("Reşit değilsiniz.");
+        }
+
+        // 4. Döngüler
+        // For döngüsü
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("For Döngüsü - Sayaç: " + i);
+        }
+
+        // While döngüsü
+        int j = 1;
+        while (j <= 5) {
+            System.out.println("While Döngüsü - Sayaç: " + j);
+            j++;
+        }
+
+        // Do-While döngüsü
+        int k = 1;
+        do {
+            System.out.println("Do-While Döngüsü - Sayaç: " + k);
+            k++;
+        } while (k <= 5);
+
+        // 5. Dizi Kullanımı
+        int[] sayilar = {1, 2, 3, 4, 5};
+        for (int i = 0; i < sayilar.length; i++) {
+            System.out.println("Dizi Elemanı: " + sayilar[i]);
+        }
+
+        // 6. Metod Kullanımı
+        int toplam = topla(5, 10);
+        System.out.println("Toplam: " + toplam);
+    }
+
+    // Metod Tanımlama (main dışında olmalı)
+    public static int topla(int a, int b) {
+        return a + b;
+    }
+}
